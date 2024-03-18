@@ -5,7 +5,7 @@ import './global.css'
 const montserrat = Montserrat({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Spectacular Gifts'
+  title: 'BBecochim'
 }
 
 export default function RootLayout({

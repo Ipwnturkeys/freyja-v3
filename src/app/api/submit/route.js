@@ -3,9 +3,6 @@ const { google } = require('googleapis');
 
 export async function POST(request) {
 
-    // console.log(request);
-
-
     // Parse the incoming request body
     const obj = await request.json();
 
@@ -33,7 +30,7 @@ export async function POST(request) {
 
     const sheets = google.sheets({ version: 'v4', auth });
     const spreadsheetId = '1W6XkuOa9a41yKQDeNobukOMw0w--42mI-neTmbDoSiI'; // Replace with your actual spreadsheet ID
-    const range = 'Sheet1!A:E'; // Adjust based on your needs
+    const range = 'Sheet2!A:E'; // Adjust based on your needs
 
     try {
         // Append the data to the spreadsheet
